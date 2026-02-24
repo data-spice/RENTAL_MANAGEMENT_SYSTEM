@@ -1,0 +1,42 @@
+
+.form-input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 18px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: #e5e7eb;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.form-input::placeholder,
+.form-group textarea::placeholder {
+    color: #9ca3af;
+}
+
+.form-input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4ade80;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.form-input-light{
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+}
+
+.form-input-light::placeholder {
+    color: #9ca3af;
+}
+
+.form-input-light:focus {
+    outline: none;
+    border-color: #4ade80;
+    background: #f9fafb;
+}
